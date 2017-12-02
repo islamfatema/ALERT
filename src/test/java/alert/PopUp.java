@@ -15,7 +15,7 @@ public class PopUp {
     	  driver.manage().window().maximize();
     	  driver.findElement(By.xpath(".//*[@id='loginbutton']")).click();
     	  Alert alert= driver.switchTo().alert();
-    	  System.out.println(alert.getText());
+    	  
     	  alert.accept();
     	  Thread.sleep(3000);
     	  driver.close();
